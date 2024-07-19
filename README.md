@@ -46,45 +46,88 @@ The project includes several visualizations to highlight key findings. Here are 
 * Proportion of complaints for the last two years
 ![download](https://github.com/user-attachments/assets/f84c0e3e-c027-41b1-a12d-af07fde30a1c)
 
+* Number of purchases from deals for different income levels, split by whether the customer has complaints
+![download](https://github.com/user-attachments/assets/5a96041a-ff67-4915-84d3-d5dc63bf101e)
 
-** Analysis Results
-Data Cleaning and Transformation
-The dataset was cleaned by handling missing values and ensuring data types were correctly set.
-Several columns were renamed for better readability:
-Year_Birth to Birth_Year
-Income to Yearly_Income
-Kidhome to Kid_at_Home
-Teenhome to Teen_at_Home
-Dt_Customer to Customer_Enrollment_Date
-Recency to Days_Since_Last_Purchase
-MntWines to Spent_for_Wines
-MntFruits to Spent_for_Fruits
-MntMeatProducts to Spent_for_Meat
-MntFishProducts to Spent_for_Fish
-MntSweetProducts to Spent_for_Sweet
-MntGoldProds to Spent_for_Gold
-Complain to Complaint_Last_Two_Years
-Descriptive Analysis
-Customer Demographics: Summarized the age distribution, income levels, education levels, and family composition of customers.
-Spending Habits: Analyzed average spending on different product categories, overall spending, and spending patterns across different customer segments.
-Campaign Responses: Examined the distribution of responses to various marketing campaigns to understand overall effectiveness.
-Exploratory Analysis
-Spending by Product Category: Customers spend significantly more on wines and meat products compared to other categories, indicating these are high-priority products for marketing efforts.
-Enrollment Trends: There was a noticeable increase in customer enrollment during certain periods, which could be aligned with successful marketing campaigns or seasonal trends.
-Income and Spending Patterns: Higher-income customers tend to spend more across all product categories, which can be targeted for premium product marketing.
-Statistical Analysis
-Chi-Square Test
-The chi-square test was used to examine the relationship between categorical variables, such as education level and response to campaigns. Key findings include:
+* Relationship between purchases made with discount and directly in store
+![download](https://github.com/user-attachments/assets/05159312-b0b7-4aeb-a926-fd999c7a5947)
 
-Campaign Effectiveness by Education Level: The chi-square test revealed that there is a significant relationship between education level and response to certain marketing campaigns. This indicates that customers with different education levels respond differently to marketing efforts.
-Complaint Analysis: Another chi-square test showed a significant relationship between customer complaints in the last two years and their response to the most recent campaign, suggesting that customers who had complaints were less likely to respond positively to new campaigns.
-Point-Biserial Correlation
-Point-biserial correlation was used to measure the strength and direction of the association between a binary variable and a continuous variable. Key findings include:
+* Relationship between yearly income and purchases directly made in store
+![download](https://github.com/user-attachments/assets/5536c569-7de5-4eca-90dc-ecb451eedf15)
 
-Income and Campaign Response: There is a moderate positive correlation between yearly income and response to the last campaign, indicating that higher-income customers are more likely to respond positively to marketing efforts.
-Days Since Last Purchase and Campaign Response: A negative correlation was found between the number of days since the last purchase and response to the last campaign, suggesting that customers who recently made a purchase are more likely to respond to new campaigns.
-Key Findings
-High Spending Categories: Wines and meat products are the top categories in terms of customer spending.
-Campaign Effectiveness: Education level and past complaints significantly affect campaign responses.
-Income Insights: Higher-income customers are more responsive to marketing campaigns and spend more across various product categories.
-Customer Engagement: Customers who recently made a purchase are more likely to respond to new campaigns.
+* Correlation Map by using Heatmap
+![download](https://github.com/user-attachments/assets/bcfa3937-3232-422b-8950-5740569d1c56)
+
+* Normal distribution of online purchases by using Box-Cox
+![download](https://github.com/user-attachments/assets/8af991ad-cee6-4600-bba1-c485af9559c3)
+
+
+_ Statistical Analysis Results:_
+
+
+* Chi Square test between marital status and total acceptance of campaigns
+    * Results:
+      * Chi-square statistic: 21.999964751929234 P-value: 0.34051255512614115 Degrees of freedom: 20
+      * Interpretation: There is no statiscally significant relationship between marital status and total acceptance of campaigns.
+     
+* Chi Square test between marital status and response to the last campaign.
+    * Results:
+      * Chi-square statistic: 49.75615728266045, P-value: 4.059941296120542e-10, Degrees of freedom: 4
+      * Interpretation: There is a statiscally significant relationship between narital status and response to the last campaign.
+        
+* Chi Square test between education level and total acceptance of campaigns.
+    * Results:
+      * Chi-square statistic: 26.49211391787158, P-value: 0.1501670313163349, Degrees of freedom: 20
+      * Interpretation: There is no statiscally significant relationship between education and total acceptance of campaigns.
+
+* Chi Square test between education level and response to the last campaign.
+    * Results:
+      * Chi-square statistic: 23.991956593084325, P-value: 8.017183023481722e-05, Degrees of freedom: 4
+      * Interpretation: There is a statiscally significant relationship between education level and response to the last campaign.
+
+* Point-Biserial Correlation between customer tenurity and response to the last campaign
+    * Results:
+      * Point-Biserial Correlation: 0.19566454820877288, P-value: 1.855325294014346e-20
+      * Interpretation: There is a statiscally significant relationship between customer tenurity and response to the last campaign
+ 
+*  Point-Biserial Correlation between age and response to the last campaign
+   * Results:
+      * Point-Biserial Correlation: -0.019913214819125384, P-value: 0.3500854366111601
+      * Interpretation: There is no statiscally significant relationship between age and response to the last campaign
+
+*  Point-Biserial Correlation between age and total acceptance of the campaigns
+   * Results:
+      * Point-Biserial Correlation: -0.005788568243497362, P-value: 0.7859274926457515
+      * Interpretation: There is no statiscally significant relationship between age and total acceptance of the campaigns
+    
+*  Point-Biserial Correlation between yearly income and total acceptance of the campaigns
+      * Point-Biserial Correlation: -0.005788568243497362, P-value: 0.7859274926457515
+      * Interpretation: There is a statiscally significant relationship between yearly income and total acceptance of the campaigns
+  
+
+### Key Findings
+
+* Customer Demographics: The majority of customers are middle-aged, with a significant portion of customers aged between 35 and 55. Income distribution shows that most customers earn between $30,000 and $60,000 annually.
+
+* Spending Patterns: Customers spend the most on wines, followed by meat products. This indicates a preference for these categories. Spending habits vary significantly across different education levels and marital statuses.
+
+* Campaign Responses: Response rates to the last campaign vary by marital status and education level, with married and higher-educated individuals showing more positive responses.
+
+### Conclusion
+
+The analysis of the food marketing data has provided several valuable insights that can inform future marketing strategies:
+
+* Target High-Spending Categories: Focus marketing efforts on promoting wines and meat products, as these are the categories with the highest customer spending.
+
+* Segmented Marketing Campaigns: Tailor marketing campaigns based on marital status and education level, as these factors significantly influence campaign responses. For instance, campaigns targeting married and higher-educated individuals are likely to be more effective.
+
+* Customer Engagement: Invest in strategies to engage long-tenure customers, as they show a positive response to campaigns. Loyalty programs or exclusive offers could be effective.
+
+* Addressing Customer Complaints: Implement measures to reduce customer complaints, as dissatisfaction significantly affects campaign responses. Improved customer service and prompt resolution of issues are essential.
+
+* Income-Based Marketing: Although yearly income showed mixed results in terms of campaign acceptance, higher-income customers are generally more responsive. Consider premium offerings and exclusive deals for higher-income segments.
+
+* Age Consideration: While age did not show a significant impact on campaign responses, it is still useful to consider age-specific preferences when designing product offerings and marketing messages.
+
+By leveraging these insights, the food company can optimize its marketing strategies, improve customer satisfaction, and increase overall campaign effectiveness. The combination of descriptive, exploratory, and statistical analyses has provided a comprehensive understanding of customer behavior and preferences, which is crucial for making informed marketing decisions.
+
