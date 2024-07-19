@@ -1,40 +1,53 @@
-Food Marketing Data Analysis Project
-Project Overview
+# Food Marketing Data Analysis Project
+
+** German Below
+
+
 This project involves the comprehensive analysis of marketing data from a food company. The primary objective is to gain insights into customer behavior, spending patterns, and responses to various marketing campaigns to optimize future marketing strategies.
 
-Goals
-Data Cleaning and Transformation: Prepare the data for analysis by handling missing values, converting data types, and renaming columns for better readability.
-Descriptive Analysis: Summarize the main features of the dataset, including customer demographics, spending habits, and campaign responses, to understand the overall data distribution.
-Exploratory Analysis: Use visual and statistical techniques to uncover patterns, correlations, and trends within the data, providing a deeper understanding of customer behavior.
-Visual Analysis: Create visualizations to illustrate key trends and patterns in the data, making it easier to interpret and communicate findings.
-Statistical Analysis: Conduct statistical tests, such as chi-square tests and point-biserial correlations, to validate findings and uncover deeper insights.
-Actionable Insights: Generate actionable insights and recommendations based on the analysis to improve marketing strategies and customer targeting.
-Achievements
-Cleaned and transformed the dataset for effective analysis.
-Generated a variety of visualizations to illustrate key insights.
-Performed statistical analyses, including chi-square tests and point-biserial correlations, to support findings.
-Results with Visuals
-The project includes several visualizations to highlight key findings:
+## Project Overview
 
-Spending Patterns
+### Goals:
 
-This bar chart illustrates the average spending of customers on different product categories. It reveals that customers spend the most on wines, followed by meat products.
-Campaign Response
+* Data Cleaning and Transformation: Prepare the data for analysis by handling missing values, converting data types, normalizing columns, dealing with outliers, and renaming columns for better readability.
+* Descriptive Analysis: Summarize the main features of the dataset, including customer demographics, their spending habits, and their responses to campaigns to understand the overall data distribution.
+* Exploratory Analysis: Use visual and statistical techniques to uncover patterns, correlations, and trends within the data, providing a deeper understanding of customer behavior.
+* Visual Analysis: Create visualizations to illustrate key trends and patterns in the data, making it easier to interpret and communicate findings.
+* Statistical Analysis: Conduct statistical tests, such as chi-square tests and point-biserial correlations, to validate findings and uncover deeper insights.
+* Actionable Insights: Generate actionable insights and recommendations based on the analysis to improve marketing strategies and customer targeting.
 
-This visualization displays the distribution of customer responses to different marketing campaigns. It shows which campaigns were most and least effective.
-Income Distribution
+### Achievements:
 
-The histogram depicts the distribution of customers' yearly income, highlighting the most common income ranges among the customer base.
-Enrollment Over Time
+* Cleaned and transformed the dataset for effective analysis.
+* Generated a variety of visualizations to illustrate key insights.
+* Performed statistical analyses, including chi-square tests and point-biserial correlations, to support findings.
 
-This time series chart shows trends in customer enrollment over time, indicating periods of growth and decline.
-Spending by Education Level
+### Results:
 
-This box plot compares the spending on different product categories across various education levels, showing how education impacts spending habits.
-Correlation Heatmap
+_Visual Results_:
 
-The heatmap illustrates the correlations between different variables in the dataset, providing a visual summary of relationships between customer demographics and spending patterns.
-Analysis Results
+The project includes several visualizations to highlight key findings. Here are some examples below:
+
+* Proportion of response to the last campaign
+![download](https://github.com/user-attachments/assets/cd3aebb0-2c43-40ce-ab3f-736a49b899ae)
+
+* Proportion of total acceptance of campaigns by marital status
+![download](https://github.com/user-attachments/assets/e650ecb8-1ddd-414c-9f92-1032ee3135cc)
+
+* Proportion of total acceptance of campaigns by education level
+![download](https://github.com/user-attachments/assets/4de94b4a-8022-4464-b8ce-6629ef66fe8b)
+
+* Proportion of positive responses to the last campaign by age
+![download](https://github.com/user-attachments/assets/63bf5fb7-d560-4a37-aeba-4729bfec58a3)
+
+* Proportion of positive responses to the last campaign by income
+![download](https://github.com/user-attachments/assets/912eca3a-79b8-47c1-9193-4d62e066ea88)
+
+* Proportion of complaints for the last two years
+![download](https://github.com/user-attachments/assets/f84c0e3e-c027-41b1-a12d-af07fde30a1c)
+
+
+** Analysis Results
 Data Cleaning and Transformation
 The dataset was cleaned by handling missing values and ensuring data types were correctly set.
 Several columns were renamed for better readability:
