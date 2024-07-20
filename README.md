@@ -221,7 +221,6 @@ Durch die Nutzung dieser Erkenntnisse kann das Lebensmittelunternehmen seine Mar
 
 ** Dieser Datensatz wurde von GitHub abgerufen und auf Kaggle gefunden: https://github.com/nailson/ifood-data-business-analyst-test  
 https://www.kaggle.com/datasets/jackdaoud/marketing-data
-
 ** In diesem Projekt wurden die Module pandas, matplotlib, seaborn, numpy, scipy und datetime importiert und in der Programmiersprache Python verwendet.
 
 
