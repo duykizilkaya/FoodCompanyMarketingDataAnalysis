@@ -110,10 +110,7 @@ By leveraging these insights, the food company can optimize its marketing strate
 
 ** This data set was retrieved from GitHub and found in Kaggle: https://github.com/nailson/ifood-data-business-analyst-test
 https://www.kaggle.com/datasets/jackdaoud/marketing-data
-
 ** In this project, pandas, matplotlib, seaborn, numpy, scipy and datetime modules were imported and used in Python language. 
-
-** Dieser Datensatz wurde über Kaggle abgerufen: https://www.kaggle.com/datasets/patrickzel/flight-delay-and-cancellation-dataset-2019-2023
 
 # Lebensmittel-Marketing-Datenanalyse-Projekt
 
