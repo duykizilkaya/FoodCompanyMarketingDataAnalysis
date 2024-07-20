@@ -110,6 +110,7 @@ By leveraging these insights, the food company can optimize its marketing strate
 
 ** This data set was retrieved from GitHub and found in Kaggle: https://github.com/nailson/ifood-data-business-analyst-test
 https://www.kaggle.com/datasets/jackdaoud/marketing-data
+
 ** In this project, pandas, matplotlib, seaborn, numpy, scipy and datetime modules were imported and used in Python language. 
 
 # Lebensmittel-Marketing-Datenanalyse-Projekt
@@ -221,6 +222,7 @@ Durch die Nutzung dieser Erkenntnisse kann das Lebensmittelunternehmen seine Mar
 
 ** Dieser Datensatz wurde von GitHub abgerufen und auf Kaggle gefunden: https://github.com/nailson/ifood-data-business-analyst-test  
 https://www.kaggle.com/datasets/jackdaoud/marketing-data
+
 ** In diesem Projekt wurden die Module pandas, matplotlib, seaborn, numpy, scipy und datetime importiert und in der Programmiersprache Python verwendet.
 
 
